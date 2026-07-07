@@ -1,0 +1,11 @@
+{
+  "name": "store-insight",
+  "version": "1.0.0",
+  "private": true,
+  "description": "安居集团 AI 资产管理平台",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../frontend && npm install",
+    "dev:server": "cd server && npm start",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
